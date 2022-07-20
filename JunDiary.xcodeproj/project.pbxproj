@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3C5F3F2887A6A500B4E5B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5F3E2887A6A500B4E5B9 /* TableViewController.swift */; };
+		BF3C5F412887A6D600B4E5B9 /* AddLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5F402887A6D600B4E5B9 /* AddLogViewController.swift */; };
+		BF3C5F432887A6F300B4E5B9 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C5F422887A6F300B4E5B9 /* DisplayViewController.swift */; };
 		BF5E973328859EE4002699B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E973228859EE4002699B9 /* AppDelegate.swift */; };
 		BF5E973528859EE4002699B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E973428859EE4002699B9 /* SceneDelegate.swift */; };
 		BF5E973728859EE4002699B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5E973628859EE4002699B9 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF3C5F3E2887A6A500B4E5B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BF3C5F402887A6D600B4E5B9 /* AddLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogViewController.swift; sourceTree = "<group>"; };
+		BF3C5F422887A6F300B4E5B9 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		BF5E972F28859EE4002699B9 /* JunDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JunDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5E973228859EE4002699B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5E973428859EE4002699B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				BF5E973228859EE4002699B9 /* AppDelegate.swift */,
 				BF5E973428859EE4002699B9 /* SceneDelegate.swift */,
 				BF5E973628859EE4002699B9 /* ViewController.swift */,
+				BF3C5F3E2887A6A500B4E5B9 /* TableViewController.swift */,
+				BF3C5F422887A6F300B4E5B9 /* DisplayViewController.swift */,
+				BF3C5F402887A6D600B4E5B9 /* AddLogViewController.swift */,
 				BF5E973828859EE4002699B9 /* Main.storyboard */,
 				BF5E973E28859EE5002699B9 /* Assets.xcassets */,
 				BF5E974028859EE5002699B9 /* LaunchScreen.storyboard */,
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5E973728859EE4002699B9 /* ViewController.swift in Sources */,
+				BF3C5F432887A6F300B4E5B9 /* DisplayViewController.swift in Sources */,
+				BF3C5F412887A6D600B4E5B9 /* AddLogViewController.swift in Sources */,
 				BF5E973328859EE4002699B9 /* AppDelegate.swift in Sources */,
 				BF5E973528859EE4002699B9 /* SceneDelegate.swift in Sources */,
+				BF3C5F3F2887A6A500B4E5B9 /* TableViewController.swift in Sources */,
 				BF5E973D28859EE4002699B9 /* JunDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
