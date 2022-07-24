@@ -12,9 +12,28 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // Save test log
+        let users = NSEntityDescription.insertNewObject(forEntityName: "User", into: self.persistentContainer.viewContext) as! User
+        users.id = "Jun"
+        users.password = "Junnie5!@#"
+        users.registerDate = Date()
+        saveContext()
+
+        // Retrieve test log
+        let request: NSFetchRequest<Log> = Log.fetchRequest()
+
+        if let log =
+            try? self.persistentContainer.viewContext.fetch(request),
+           let with = log.first?.with,
+           let what = log.first?.what,
+           let date = log.first?.date {
+            print("with: \(with), what: \(what), date: \(date)")
+        } else {
+            print("failed")
+        }
+
         return true
     }
 
@@ -78,4 +97,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

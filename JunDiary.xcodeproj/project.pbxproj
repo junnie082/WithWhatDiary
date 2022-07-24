@@ -17,6 +17,19 @@
 		BF5E973D28859EE4002699B9 /* JunDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5E973B28859EE4002699B9 /* JunDiary.xcdatamodeld */; };
 		BF5E973F28859EE5002699B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5E973E28859EE5002699B9 /* Assets.xcassets */; };
 		BF5E974228859EE5002699B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5E974028859EE5002699B9 /* LaunchScreen.storyboard */; };
+		BFE9BCC02889773A00360BB7 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB42889773A00360BB7 /* Photo+CoreDataClass.swift */; };
+		BFE9BCC12889773A00360BB7 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB52889773A00360BB7 /* Photo+CoreDataProperties.swift */; };
+		BFE9BCC22889773A00360BB7 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB62889773A00360BB7 /* User+CoreDataClass.swift */; };
+		BFE9BCC32889773A00360BB7 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB72889773A00360BB7 /* User+CoreDataProperties.swift */; };
+		BFE9BCC42889773A00360BB7 /* Emotion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB82889773A00360BB7 /* Emotion+CoreDataClass.swift */; };
+		BFE9BCC52889773A00360BB7 /* Emotion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCB92889773A00360BB7 /* Emotion+CoreDataProperties.swift */; };
+		BFE9BCC62889773A00360BB7 /* Video+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBA2889773A00360BB7 /* Video+CoreDataClass.swift */; };
+		BFE9BCC72889773A00360BB7 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBB2889773A00360BB7 /* Video+CoreDataProperties.swift */; };
+		BFE9BCC82889773A00360BB7 /* Log+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBC2889773A00360BB7 /* Log+CoreDataClass.swift */; };
+		BFE9BCC92889773A00360BB7 /* Log+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBD2889773A00360BB7 /* Log+CoreDataProperties.swift */; };
+		BFE9BCCA2889773A00360BB7 /* Login+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBE2889773A00360BB7 /* Login+CoreDataClass.swift */; };
+		BFE9BCCB2889773A00360BB7 /* Login+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9BCBF2889773A00360BB7 /* Login+CoreDataProperties.swift */; };
+		BFE9BCCD288D121C00360BB7 /* PhotoJun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFE9BCCC288D121C00360BB7 /* PhotoJun.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +45,19 @@
 		BF5E973E28859EE5002699B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5E974128859EE5002699B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5E974328859EE5002699B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE9BCB42889773A00360BB7 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCB52889773A00360BB7 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCB62889773A00360BB7 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCB72889773A00360BB7 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCB82889773A00360BB7 /* Emotion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emotion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCB92889773A00360BB7 /* Emotion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emotion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCBA2889773A00360BB7 /* Video+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCBB2889773A00360BB7 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCBC2889773A00360BB7 /* Log+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCBD2889773A00360BB7 /* Log+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCBE2889773A00360BB7 /* Login+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BFE9BCBF2889773A00360BB7 /* Login+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BFE9BCCC288D121C00360BB7 /* PhotoJun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PhotoJun.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +74,19 @@
 		BF5E972628859EE4002699B9 = {
 			isa = PBXGroup;
 			children = (
+				BFE9BCCC288D121C00360BB7 /* PhotoJun.jpeg */,
+				BFE9BCB42889773A00360BB7 /* Photo+CoreDataClass.swift */,
+				BFE9BCB52889773A00360BB7 /* Photo+CoreDataProperties.swift */,
+				BFE9BCB62889773A00360BB7 /* User+CoreDataClass.swift */,
+				BFE9BCB72889773A00360BB7 /* User+CoreDataProperties.swift */,
+				BFE9BCB82889773A00360BB7 /* Emotion+CoreDataClass.swift */,
+				BFE9BCB92889773A00360BB7 /* Emotion+CoreDataProperties.swift */,
+				BFE9BCBA2889773A00360BB7 /* Video+CoreDataClass.swift */,
+				BFE9BCBB2889773A00360BB7 /* Video+CoreDataProperties.swift */,
+				BFE9BCBC2889773A00360BB7 /* Log+CoreDataClass.swift */,
+				BFE9BCBD2889773A00360BB7 /* Log+CoreDataProperties.swift */,
+				BFE9BCBE2889773A00360BB7 /* Login+CoreDataClass.swift */,
+				BFE9BCBF2889773A00360BB7 /* Login+CoreDataProperties.swift */,
 				BF5E973128859EE4002699B9 /* JunDiary */,
 				BF5E973028859EE4002699B9 /* Products */,
 			);
@@ -137,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE9BCCD288D121C00360BB7 /* PhotoJun.jpeg in Resources */,
 				BF5E974228859EE5002699B9 /* LaunchScreen.storyboard in Resources */,
 				BF5E973F28859EE5002699B9 /* Assets.xcassets in Resources */,
 				BF5E973A28859EE4002699B9 /* Main.storyboard in Resources */,
@@ -152,11 +192,23 @@
 			files = (
 				BF5E973728859EE4002699B9 /* ViewController.swift in Sources */,
 				BF3C5F432887A6F300B4E5B9 /* DisplayViewController.swift in Sources */,
+				BFE9BCC72889773A00360BB7 /* Video+CoreDataProperties.swift in Sources */,
+				BFE9BCC02889773A00360BB7 /* Photo+CoreDataClass.swift in Sources */,
 				BF3C5F412887A6D600B4E5B9 /* AddLogViewController.swift in Sources */,
+				BFE9BCC22889773A00360BB7 /* User+CoreDataClass.swift in Sources */,
+				BFE9BCC52889773A00360BB7 /* Emotion+CoreDataProperties.swift in Sources */,
+				BFE9BCC92889773A00360BB7 /* Log+CoreDataProperties.swift in Sources */,
+				BFE9BCC42889773A00360BB7 /* Emotion+CoreDataClass.swift in Sources */,
+				BFE9BCC82889773A00360BB7 /* Log+CoreDataClass.swift in Sources */,
+				BFE9BCC62889773A00360BB7 /* Video+CoreDataClass.swift in Sources */,
 				BF5E973328859EE4002699B9 /* AppDelegate.swift in Sources */,
+				BFE9BCCB2889773A00360BB7 /* Login+CoreDataProperties.swift in Sources */,
 				BF5E973528859EE4002699B9 /* SceneDelegate.swift in Sources */,
+				BFE9BCC32889773A00360BB7 /* User+CoreDataProperties.swift in Sources */,
+				BFE9BCC12889773A00360BB7 /* Photo+CoreDataProperties.swift in Sources */,
 				BF3C5F3F2887A6A500B4E5B9 /* TableViewController.swift in Sources */,
 				BF5E973D28859EE4002699B9 /* JunDiary.xcdatamodeld in Sources */,
+				BFE9BCCA2889773A00360BB7 /* Login+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
